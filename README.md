@@ -6,7 +6,7 @@
 
 ## Use
 
-add [`head.tex`](head.tex) at the begin of your `.tex` file.
+Add [`head.tex`](head.tex) at the begin of your `.tex` file.
 
 ### Content
 `Content` will be automatically completed according to `section` & `subsection`.
@@ -36,16 +36,16 @@ Three commands are supported: `section`, `subsection` and `subsubsection`.
 ```latex
 \begin{figure}[h]
 \small
-\centering
-\includegraphics[width=5cm]{commense} % figures/commense.png
-\caption{Motivation of VC R-CNN}
-\label{fig:moti1} % You can use `\eqref{fig:moti1}` to cite this figure.
+\centering   
+\includegraphics[width=12cm]{figures/lsmotivation.png} 
+\caption{An illustrative example of long-term and short-term interests in news reading} 
+\label{fig:lsmoti} % You can use `\eqref{fig:lsmoti}` to cite this figure.
 \end{figure}
 ```
 
-It is easy to use this block. However, I recommand you to create a new folder named `figures`. And you can only use `commense` instead of `figures/commense.png`
+It is easy to use this block. However, I recommand you to create a new folder named `figures`. And you can only use `lsmotivation` instead of `figures/lsmotivation.png`
 
-![](imgs/2021-08-17-17-50-47.png)
+![](imgs/2021-10-01-02-46-44.png)
 
 
 ### Equation
@@ -69,6 +69,31 @@ You can use both `equation` or `align` as you like.
 ```
 
 ![](imgs/2021-08-17-18-21-30.png)
+
+### Item
+
+**ordered** 
+
+```latex
+\begin{enumerate}[(1)] % You can choose `1` or `(1)`, etc.
+\item ...
+\item ...
+\item ...
+\end{enumerate}
+```
+
+![](imgs/2021-10-01-02-45-26.png)
+
+**unordered**
+```latex
+\begin{itemize}
+    \item ...
+    \item ...
+    \item ...
+\end{itemize}
+```
+
+![](imgs/2021-10-01-02-42-37.png)
 
 ### Code 
 
