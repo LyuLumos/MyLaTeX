@@ -4,6 +4,16 @@
 - Base on [CTAN - mcmthesis](https://www.ctan.org/pkg/mcmthesis)
 - [GPL-v3.0](LICENSE)
 
+## Install
+
+Download this repo or copy [`bg.cls`](bg.cls) and [`head.tex`](head.tex) to your folder. Enjoy it!
+
+```bash
+git clone https://github.com/LyuLumos/MyLaTeX.git
+```
+
+
+
 ## Use
 
 Add [`head.tex`](head.tex) at the begin of your `.tex` file.
