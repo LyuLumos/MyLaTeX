@@ -26,7 +26,8 @@ Of course you can use `subsubsection` if you like. :)
 ```latex
 \tableofcontents
 ```
-![](imgs/2021-08-17-18-13-32.png)
+
+![](imgs/2021-10-01-03-02-18.png)
 
 
 ### Section
@@ -38,8 +39,6 @@ Three commands are supported: `section`, `subsection` and `subsubsection`.
 \subsection{Intro}
 \subsubsection{Example}
 ```
-
-![](imgs/2021-08-17-17-43-51.png)
 
 ### Figure
 
@@ -66,19 +65,19 @@ You can use both `equation` or `align` as you like.
 
 ```latex
 \begin{equation}
-    \mathbb{E}_{\boldsymbol{z}}\left[\operatorname{Softmax}\left(f_{y}(\boldsymbol{x}, \boldsymbol{z})\right)\right] \stackrel{\mathrm{NWGM}}{\approx} \operatorname{Softmax}\left(\mathbb{E}_{\boldsymbol{z}}\left[f_{y}(\boldsymbol{x}, \boldsymbol{z})\right]\right)
-    \label{equ: nwgm} % You can use `\eqref{equ: nwgm}` to cite this equation.
+    \begin{equation}  \boldsymbol{c}_{i}=\operatorname{ReLU}\left(\boldsymbol{C} \times \boldsymbol{w}_{[i-M: i+M]}+\boldsymbol{b}\right)  \end{equation}
+    \label{equ: newsencoder} % You can use `\eqref{equ: newsencoder}` to cite this equation.
 \end{equation}
 ```
 
-![](imgs/2021-08-17-18-09-32.png)
+![](imgs/2021-10-01-03-40-40.png)
 
 ### Hyperlink
 ```latex
-\href{https://github.com/Wangt-CN/VC-R-CNN}{https://github.com/Wangt-CN/VC-R-CNN (Pytorch)}
+\href{https://github.com/wuch15/IJCAI2019-NAML} {https://github.com/wuch15/IJCAI2019-NAML (Tensorflow, keras)} 
 ```
 
-![](imgs/2021-08-17-18-21-30.png)
+![](imgs/2021-10-01-03-42-43.png)
 
 ### Item
 
@@ -112,7 +111,7 @@ Only six languages supported in default config:  `C, C++, Python, Java, Matlab, 
 ```latex
 \lstinputlisting[language=Python]{./code/base.py} 
 ```
-![](imgs/2021-08-17-18-01-30.png)
+![](imgs/2021-10-01-03-45-59.png)
 
 ### Reference
 
@@ -122,10 +121,9 @@ I recommand to create a `.bib` file. You can only add this at the end of the `.t
 \bibliographystyle{plain}
 \bibliography{ref} % .bib file name
 ```
-
-![](imgs/2021-08-17-18-18-01.png)
+![](imgs/2021-10-01-03-46-24.png)
 
 Use `\cite{}` to cite it.
 
-![](imgs/2021-08-17-18-18-42.png)
+![](imgs/2021-10-01-03-47-24.png)
 
